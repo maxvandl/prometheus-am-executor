@@ -5,7 +5,7 @@ go 1.22.0
 toolchain go1.24.2
 
 require (
-	github.com/juju/testing v0.0.0-20200510222523-6c8c298c77a0
+	github.com/juju/testing v1.2.0
 	github.com/prometheus/alertmanager v0.28.1
 	github.com/prometheus/client_golang v1.20.5
 	github.com/prometheus/client_model v0.6.1
@@ -293,10 +293,11 @@ require (
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/jstemmer/go-junit-report v0.9.1 // indirect
-	github.com/juju/clock v0.0.0-20180524022203-d293bb356ca4 // indirect
-	github.com/juju/errors v0.0.0-20150916125642-1b5e39b83d18 // indirect
-	github.com/juju/loggo v0.0.0-20170605014607-8232ab8918d9 // indirect
-	github.com/juju/retry v0.0.0-20160928201858-1998d01ba1c3 // indirect
+	github.com/juju/clock v1.0.2 // indirect
+	github.com/juju/errors v1.0.0 // indirect
+	github.com/juju/loggo v0.0.0-20210728185423-eebad3a902c4 // indirect
+	github.com/juju/loggo/v2 v2.0.0 // indirect
+	github.com/juju/retry v0.0.0-20180821225755-9058e192b216 // indirect
 	github.com/juju/utils v0.0.0-20180808125547-9dfc6dbfb02b // indirect
 	github.com/juju/version v0.0.0-20161031051906-1f41e27e54f2 // indirect
 	github.com/julienschmidt/httprouter v1.3.0 // indirect
