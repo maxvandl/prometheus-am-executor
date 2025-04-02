@@ -1,0 +1,33 @@
+{
+  "extends": ["config:base"],
+
+  // Schedule updates once a week
+  "schedule": ["weekly"],
+
+  // Group dependency updates together
+  "group": {
+    "all-minor-patch": {
+      "patterns": ["*"],
+      "updateTypes": ["minor", "patch"]
+    }
+  },
+
+  // Configure Go module updates
+  "packageRules": [
+    {
+      "matchManagers": ["gomod"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false // Disable major Go updates
+    }
+  ],
+
+  // Configure Docker updates
+  "docker": {
+    "enabled": true
+  },
+
+  // Configure GitHub Actions updates
+  "github-actions": {
+    "enabled": true
+  }
+}
